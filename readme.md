@@ -39,7 +39,7 @@ Traditional file system implementations are synchronous and blocking by nature. 
 To enhance system performance and avoid unnecessary operations, a debouncing technique is implemented in the system. This ensures that certain operations, such as saving changes to a file, aren't performed excessively in a short period of time. This technique is particularly important in a collaborative environment where multiple users may be attempting to modify a file simultaneously.
 
 ### Multithreading and Concurrency
-Given the nature of P2P systems where multiple processes occur simultaneously, the system makes extensive use of multithreading. This allows multiple users to perform operations concurrently, ensuring the system remains responsive and efficient even under heavy load.
+Given the nature of P2P systems where multiple processes occur simultaneously, the system makes an extensive use of multithreading. This allows multiple users to perform operations concurrently, ensuring the system remains responsive and efficient even under heavy load.
 
 ## Usage
 Upon launching the application, each user can generate and register a unique private/public key pair with the system. This ensures secure authentication and communication within the network.
