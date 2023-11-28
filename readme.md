@@ -16,7 +16,7 @@ This project is a Peer-to-Peer (P2P) encrypted file sharing system designed to s
 * Apache Maven
 
 ### Installing and Running
-1. Clone the repository to your local machine: `git clone https://github.com/lokesh-kadiyala98/p2p-file-sharing.git`
+1. Clone the repository to your local machine: `https://github.com/smaddin1/secure_file_sharing_system.git`
 2. Navigate to the project directory: `cd p2p-file-sharing`
 3. Compile the project using Maven: `mvn clean install`
 4. Navigate to the target directory: `cd target`
